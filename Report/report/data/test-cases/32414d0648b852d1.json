@@ -1,0 +1,79 @@
+{
+  "uid" : "32414d0648b852d1",
+  "name" : "test_addroom_case[1.0-{\"hotel_id\":\"14715551\",\"room_name\":\"大床房\",\"room_pictures\":[{\"category\":\"房型相册\",\"poictures\":[{\"src\":\"http://yiyihoteltest.oss-cn-shanghai-finance-1-pub.aliyuncs.com/static/20200712/682a24106a841b8d1b516ecaea9670e5.jpg\"}]}]}]",
+  "fullName" : "Testcase.test_room.Test_Room#test_addroom_case[1.0-{\"hotel_id\":\"14715551\",\"room_name\":\"大床房\",\"room_pictures\":[{\"category\":\"房型相册\",\"poictures\":",
+  "historyId" : "edf6578ca4d05fd61f6dfab80e0894b2",
+  "time" : {
+    "start" : 1595390064656,
+    "stop" : 1595390064748,
+    "duration" : 92
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "房型模块"
+  }, {
+    "name" : "story",
+    "value" : "新增房型接口"
+  }, {
+    "name" : "tag",
+    "value" : "room_add"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_room"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Room"
+  }, {
+    "name" : "host",
+    "value" : "123LAPTOP-C540DCLJ"
+  }, {
+    "name" : "thread",
+    "value" : "7788-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Testcase.test_room"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "request_param",
+    "value" : "'{\"hotel_id\":\"14715551\",\"room_name\":\"大床房\",\"room_pictures\":[{\"category\":\"房型相册\",\"poictures\":[{\"src\":\"http://yiyihoteltest.oss-cn-shanghai-finance-1-pub.aliyuncs.com/static/20200712/682a24106a841b8d1b516ecaea9670e5.jpg\"}]}]}'"
+  }, {
+    "name" : "tc_number",
+    "value" : "1.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "55016a1a4c500585",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594733670901,
+        "stop" : 1594733671092,
+        "duration" : 191
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "room_add" ]
+  },
+  "source" : "32414d0648b852d1.json",
+  "parameterValues" : [ "'{\"hotel_id\":\"14715551\",\"room_name\":\"大床房\",\"room_pictures\":[{\"category\":\"房型相册\",\"poictures\":[{\"src\":\"http://yiyihoteltest.oss-cn-shanghai-finance-1-pub.aliyuncs.com/static/20200712/682a24106a841b8d1b516ecaea9670e5.jpg\"}]}]}'", "1.0" ]
+}

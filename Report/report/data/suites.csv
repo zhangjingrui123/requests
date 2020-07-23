@@ -1,0 +1,62 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Wed Jul 22 11:54:24 CST 2020","Wed Jul 22 11:54:24 CST 2020","119","Testcase","test_room","Test_Room","","","test_addroom_case[2.0-{""hotel_id"":""14715551"",""room_name"":""大床房"",""room_pictures"":[{""category"":""房型相册"",""poictures"":[{""src"":""http://yiyihoteltest.oss-cn-shanghai-finance-1-pub.aliyuncs.com/static/20200712/682a24106a841b8d1b516ecaea9670e5.jpg""}]}]}]",""
+"passed","Wed Jul 22 11:53:51 CST 2020","Wed Jul 22 11:53:51 CST 2020","58","Testcase","test_login","","","","test_case[2.0-{""account"": ""15266905059"",""password"": ""zjr123456""}]",""
+"passed","Wed Jul 22 11:54:24 CST 2020","Wed Jul 22 11:54:25 CST 2020","241","Testcase","test_room","Test_Room","","","test_list_case[4.0-{
+          find_room_type(
+            order: ""-createdAt""
+            skip: 0,
+            limit: 10,
+            where: {
+              and:[
+                {
+                  flag: ""0""
+                  hotel_id: 14715551
+                  
+                  
+                }
+              ]
+            }
+          ){
+            id
+            room_name
+            room_area
+            room_people_number
+            room_floor
+            flag
+            hotel{
+              id
+              status
+            }
+            picture(
+              where: {
+                picture_type:""room""
+              }
+            ){
+              category
+              oss_k
+              id
+            }
+            room_sale_type(
+              where: {
+                flag:""0""
+              }
+            ){
+              id
+              room_sale_name
+              room_sale_description
+              room_sale_price
+              room_sale_amount
+              room_sale_status
+              room_type{
+                id
+              }
+              flag
+            }
+            createdAt
+            updatedAt
+          }
+        }]",""
+"passed","Wed Jul 22 11:54:24 CST 2020","Wed Jul 22 11:54:24 CST 2020","92","Testcase","test_room","Test_Room","","","test_addroom_case[1.0-{""hotel_id"":""14715551"",""room_name"":""大床房"",""room_pictures"":[{""category"":""房型相册"",""poictures"":[{""src"":""http://yiyihoteltest.oss-cn-shanghai-finance-1-pub.aliyuncs.com/static/20200712/682a24106a841b8d1b516ecaea9670e5.jpg""}]}]}]",""
+"passed","Wed Jul 22 11:54:25 CST 2020","Wed Jul 22 11:54:25 CST 2020","223","Testcase","test_room","Test_Room","","","test_delete_case",""
+"passed","Wed Jul 22 11:53:51 CST 2020","Wed Jul 22 11:53:51 CST 2020","102","Testcase","test_login","","","","test_case[1.0-{""account"": ""15266905059"",""password"": ""123456""}]",""
+"passed","Wed Jul 22 11:54:24 CST 2020","Wed Jul 22 11:54:24 CST 2020","59","Testcase","test_room","Test_Room","","","test_addroom_case[3.0-{""hotel_id"":""14715523"",""room_name"":""大床房"",""room_pictures"":[{""category"":""房型相册"",""poictures"":[{""src"":""http://yiyihoteltest.oss-cn-shanghai-finance-1-pub.aliyuncs.com/static/20200712/682a24106a841b8d1b516ecaea9670e5.jpg""}]}]}]",""

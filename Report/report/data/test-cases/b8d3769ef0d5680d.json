@@ -1,0 +1,103 @@
+{
+  "uid" : "b8d3769ef0d5680d",
+  "name" : "test_delete_case",
+  "fullName" : "Testcase.test_room.Test_Room#test_delete_case",
+  "historyId" : "07c0d6d467889deeeab3dba5f833ace6",
+  "time" : {
+    "start" : 1595390065229,
+    "stop" : 1595390065452,
+    "duration" : 223
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1595390064580,
+      "stop" : 1595390064654,
+      "duration" : 74
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1595390065453,
+      "stop" : 1595390065453,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "房型模块"
+  }, {
+    "name" : "story",
+    "value" : "删除房型接口"
+  }, {
+    "name" : "tag",
+    "value" : "room_delete"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_room"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Room"
+  }, {
+    "name" : "host",
+    "value" : "123LAPTOP-C540DCLJ"
+  }, {
+    "name" : "thread",
+    "value" : "7788-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Testcase.test_room"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "c099b2ce716b8a0d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594733671920,
+        "stop" : 1594733672329,
+        "duration" : 409
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "room_delete" ]
+  },
+  "source" : "b8d3769ef0d5680d.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,66 @@
+{
+  "uid" : "5513d70522034199",
+  "name" : "test_case[1.0-{\"account\": \"15266905059\",\"password\": \"123456\"}]",
+  "fullName" : "Testcase.test_login#test_case",
+  "historyId" : "8b8cb8e228968baa6d79f5e5de3263da",
+  "time" : {
+    "start" : 1595383256406,
+    "stop" : 1595383256506,
+    "duration" : 100
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "登录接口"
+  }, {
+    "name" : "feature",
+    "value" : "登录模块"
+  }, {
+    "name" : "tag",
+    "value" : "login"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "host",
+    "value" : "123LAPTOP-C540DCLJ"
+  }, {
+    "name" : "thread",
+    "value" : "9528-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Testcase.test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "request_param",
+    "value" : "'{\"account\": \"15266905059\",\"password\": \"123456\"}'"
+  }, {
+    "name" : "test_number",
+    "value" : "1.0"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "login" ]
+  },
+  "source" : "5513d70522034199.json",
+  "parameterValues" : [ "'{\"account\": \"15266905059\",\"password\": \"123456\"}'", "1.0" ]
+}

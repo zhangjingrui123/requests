@@ -1,0 +1,100 @@
+{
+  "uid" : "5eb683db116678de",
+  "name" : "test_case[1.0-{\"account\": \"15266905059\",\"password\": \"123456\"}]",
+  "fullName" : "Testcase.test_login#test_case",
+  "historyId" : "8b8cb8e228968baa6d79f5e5de3263da",
+  "time" : {
+    "start" : 1595390031315,
+    "stop" : 1595390031417,
+    "duration" : 102
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "登录模块"
+  }, {
+    "name" : "story",
+    "value" : "登录接口"
+  }, {
+    "name" : "tag",
+    "value" : "login"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "host",
+    "value" : "123LAPTOP-C540DCLJ"
+  }, {
+    "name" : "thread",
+    "value" : "3328-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Testcase.test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "request_param",
+    "value" : "'{\"account\": \"15266905059\",\"password\": \"123456\"}'"
+  }, {
+    "name" : "test_number",
+    "value" : "1.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "c66f4883995744c2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595387603071,
+        "stop" : 1595387603166,
+        "duration" : 95
+      }
+    }, {
+      "uid" : "1de4e1db26ad96df",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595386627384,
+        "stop" : 1595386627486,
+        "duration" : 102
+      }
+    }, {
+      "uid" : "5513d70522034199",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595383256406,
+        "stop" : 1595383256506,
+        "duration" : 100
+      }
+    }, {
+      "uid" : "10a021e8a15ba0bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594733506868,
+        "stop" : 1594733507017,
+        "duration" : 149
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "login" ]
+  },
+  "source" : "5eb683db116678de.json",
+  "parameterValues" : [ "'{\"account\": \"15266905059\",\"password\": \"123456\"}'", "1.0" ]
+}

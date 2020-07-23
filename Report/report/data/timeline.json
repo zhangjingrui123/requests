@@ -1,0 +1,297 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "123LAPTOP-C540DCLJ",
+    "children" : [ {
+      "name" : "7788-MainThread",
+      "children" : [ {
+        "name" : "test_addroom_case[2.0-{\"hotel_id\":\"14715551\",\"room_name\":\"大床房\",\"room_pictures\":[{\"category\":\"房型相册\",\"poictures\":[{\"src\":\"http://yiyihoteltest.oss-cn-shanghai-finance-1-pub.aliyuncs.com/static/20200712/682a24106a841b8d1b516ecaea9670e5.jpg\"}]}]}]",
+        "uid" : "62b0d752b5d1b496",
+        "parentUid" : "d8e9f2f96dc4bd278306eeda01c0ca2c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1595390064757,
+          "stop" : 1595390064876,
+          "duration" : 119
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'{\"hotel_id\":\"14715551\",\"room_name\":\"大床房\",\"room_pictures\":[{\"category\":\"房型相册\",\"poictures\":[{\"src\":\"http://yiyihoteltest.oss-cn-shanghai-finance-1-pub.aliyuncs.com/static/20200712/682a24106a841b8d1b516ecaea9670e5.jpg\"}]}]}'", "2.0" ]
+      }, {
+        "name" : "test_addroom_case[3.0-{\"hotel_id\":\"14715523\",\"room_name\":\"大床房\",\"room_pictures\":[{\"category\":\"房型相册\",\"poictures\":[{\"src\":\"http://yiyihoteltest.oss-cn-shanghai-finance-1-pub.aliyuncs.com/static/20200712/682a24106a841b8d1b516ecaea9670e5.jpg\"}]}]}]",
+        "uid" : "25b0140d540908bd",
+        "parentUid" : "d8e9f2f96dc4bd278306eeda01c0ca2c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1595390064910,
+          "stop" : 1595390064969,
+          "duration" : 59
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'{\"hotel_id\":\"14715523\",\"room_name\":\"大床房\",\"room_pictures\":[{\"category\":\"房型相册\",\"poictures\":[{\"src\":\"http://yiyihoteltest.oss-cn-shanghai-finance-1-pub.aliyuncs.com/static/20200712/682a24106a841b8d1b516ecaea9670e5.jpg\"}]}]}'", "3.0" ]
+      }, {
+        "name" : "test_delete_case",
+        "uid" : "b8d3769ef0d5680d",
+        "parentUid" : "d8e9f2f96dc4bd278306eeda01c0ca2c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1595390065229,
+          "stop" : 1595390065452,
+          "duration" : 223
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_list_case[4.0-{\n          find_room_type(\n            order: \"-createdAt\"\n            skip: 0,\n            limit: 10,\n            where: {\n              and:[\n                {\n                  flag: \"0\"\n                  hotel_id: 14715551\n                  \n                  \n                }\n              ]\n            }\n          ){\n            id\n            room_name\n            room_area\n            room_people_number\n            room_floor\n            flag\n            hotel{\n              id\n              status\n            }\n            picture(\n              where: {\n                picture_type:\"room\"\n              }\n            ){\n              category\n              oss_k\n              id\n            }\n            room_sale_type(\n              where: {\n                flag:\"0\"\n              }\n            ){\n              id\n              room_sale_name\n              room_sale_description\n              room_sale_price\n              room_sale_amount\n              room_sale_status\n              room_type{\n                id\n              }\n              flag\n            }\n            createdAt\n            updatedAt\n          }\n        }]",
+        "uid" : "9ec975f2d817a879",
+        "parentUid" : "d8e9f2f96dc4bd278306eeda01c0ca2c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1595390064979,
+          "stop" : 1595390065220,
+          "duration" : 241
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'{\n          find_room_type(\n            order: \"-createdAt\"\n            skip: 0,\n            limit: 10,\n            where: {\n              and:[\n                {\n                  flag: \"0\"\n                  hotel_id: 14715551\n                  \n                  \n                }\n              ]\n            }\n          ){\n            id\n            room_name\n            room_area\n            room_people_number\n            room_floor\n            flag\n            hotel{\n              id\n              status\n            }\n            picture(\n              where: {\n                picture_type:\"room\"\n              }\n            ){\n              category\n              oss_k\n              id\n            }\n            room_sale_type(\n              where: {\n                flag:\"0\"\n              }\n            ){\n              id\n              room_sale_name\n              room_sale_description\n              room_sale_price\n              room_sale_amount\n              room_sale_status\n              room_type{\n                id\n              }\n              flag\n            }\n            createdAt\n            updatedAt\n          }\n        }'", "4.0" ]
+      }, {
+        "name" : "test_addroom_case[1.0-{\"hotel_id\":\"14715551\",\"room_name\":\"大床房\",\"room_pictures\":[{\"category\":\"房型相册\",\"poictures\":[{\"src\":\"http://yiyihoteltest.oss-cn-shanghai-finance-1-pub.aliyuncs.com/static/20200712/682a24106a841b8d1b516ecaea9670e5.jpg\"}]}]}]",
+        "uid" : "32414d0648b852d1",
+        "parentUid" : "d8e9f2f96dc4bd278306eeda01c0ca2c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1595390064656,
+          "stop" : 1595390064748,
+          "duration" : 92
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'{\"hotel_id\":\"14715551\",\"room_name\":\"大床房\",\"room_pictures\":[{\"category\":\"房型相册\",\"poictures\":[{\"src\":\"http://yiyihoteltest.oss-cn-shanghai-finance-1-pub.aliyuncs.com/static/20200712/682a24106a841b8d1b516ecaea9670e5.jpg\"}]}]}'", "1.0" ]
+      } ],
+      "uid" : "d8e9f2f96dc4bd278306eeda01c0ca2c"
+    }, {
+      "name" : "3328-MainThread",
+      "children" : [ {
+        "name" : "test_case[1.0-{\"account\": \"15266905059\",\"password\": \"123456\"}]",
+        "uid" : "5eb683db116678de",
+        "parentUid" : "23dfb117ae06c75aac01b6b7272e0334",
+        "status" : "passed",
+        "time" : {
+          "start" : 1595390031315,
+          "stop" : 1595390031417,
+          "duration" : 102
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'{\"account\": \"15266905059\",\"password\": \"123456\"}'", "1.0" ]
+      }, {
+        "name" : "test_case[2.0-{\"account\": \"15266905059\",\"password\": \"zjr123456\"}]",
+        "uid" : "cd42e6bb7316dfc",
+        "parentUid" : "23dfb117ae06c75aac01b6b7272e0334",
+        "status" : "passed",
+        "time" : {
+          "start" : 1595390031425,
+          "stop" : 1595390031483,
+          "duration" : 58
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'{\"account\": \"15266905059\",\"password\": \"zjr123456\"}'", "2.0" ]
+      } ],
+      "uid" : "23dfb117ae06c75aac01b6b7272e0334"
+    }, {
+      "name" : "11616-MainThread",
+      "children" : [ {
+        "name" : "test_case[2.0-{\"account\": \"15266905059\",\"password\": \"zjr123456\"}]",
+        "uid" : "b0d4c3498816d530",
+        "parentUid" : "907947020775e709e25a336bbae437f8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1595387603176,
+          "stop" : 1595387603233,
+          "duration" : 57
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'{\"account\": \"15266905059\",\"password\": \"zjr123456\"}'", "2.0" ]
+      }, {
+        "name" : "test_case[1.0-{\"account\": \"15266905059\",\"password\": \"123456\"}]",
+        "uid" : "c66f4883995744c2",
+        "parentUid" : "907947020775e709e25a336bbae437f8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1595387603071,
+          "stop" : 1595387603166,
+          "duration" : 95
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'{\"account\": \"15266905059\",\"password\": \"123456\"}'", "1.0" ]
+      } ],
+      "uid" : "907947020775e709e25a336bbae437f8"
+    }, {
+      "name" : "13468-MainThread",
+      "children" : [ {
+        "name" : "test_case[1.0-{\"account\": \"15266905059\",\"password\": \"123456\"}]",
+        "uid" : "10a021e8a15ba0bd",
+        "parentUid" : "f58ebb50bd6ad542c35895b78ef9f69c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1594733506868,
+          "stop" : 1594733507017,
+          "duration" : 149
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'{\"account\": \"15266905059\",\"password\": \"123456\"}'", "1.0" ]
+      }, {
+        "name" : "test_case[2.0-{\"account\": \"15266905059\",\"password\": \"zjr123456\"}]",
+        "uid" : "7042a209a12aa61",
+        "parentUid" : "f58ebb50bd6ad542c35895b78ef9f69c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1594733507093,
+          "stop" : 1594733507227,
+          "duration" : 134
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'{\"account\": \"15266905059\",\"password\": \"zjr123456\"}'", "2.0" ]
+      } ],
+      "uid" : "f58ebb50bd6ad542c35895b78ef9f69c"
+    }, {
+      "name" : "15484-MainThread",
+      "children" : [ {
+        "name" : "test_list_case[4.0-{\n          find_room_type(\n            order: \"-createdAt\"\n            skip: 0,\n            limit: 10,\n            where: {\n              and:[\n                {\n                  flag: \"0\"\n                  hotel_id: 14715551\n                  \n                  \n                }\n              ]\n            }\n          ){\n            id\n            room_name\n            room_area\n            room_people_number\n            room_floor\n            flag\n            hotel{\n              id\n              status\n            }\n            picture(\n              where: {\n                picture_type:\"room\"\n              }\n            ){\n              category\n              oss_k\n              id\n            }\n            room_sale_type(\n              where: {\n                flag:\"0\"\n              }\n            ){\n              id\n              room_sale_name\n              room_sale_description\n              room_sale_price\n              room_sale_amount\n              room_sale_status\n              room_type{\n                id\n              }\n              flag\n            }\n            createdAt\n            updatedAt\n          }\n        }]",
+        "uid" : "30ce55ecfbe28c87",
+        "parentUid" : "129daa8a87ba41d645782ee98efdeec3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1594733671633,
+          "stop" : 1594733671865,
+          "duration" : 232
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'{\n          find_room_type(\n            order: \"-createdAt\"\n            skip: 0,\n            limit: 10,\n            where: {\n              and:[\n                {\n                  flag: \"0\"\n                  hotel_id: 14715551\n                  \n                  \n                }\n              ]\n            }\n          ){\n            id\n            room_name\n            room_area\n            room_people_number\n            room_floor\n            flag\n            hotel{\n              id\n              status\n            }\n            picture(\n              where: {\n                picture_type:\"room\"\n              }\n            ){\n              category\n              oss_k\n              id\n            }\n            room_sale_type(\n              where: {\n                flag:\"0\"\n              }\n            ){\n              id\n              room_sale_name\n              room_sale_description\n              room_sale_price\n              room_sale_amount\n              room_sale_status\n              room_type{\n                id\n              }\n              flag\n            }\n            createdAt\n            updatedAt\n          }\n        }'", "4.0" ]
+      }, {
+        "name" : "test_delete_case",
+        "uid" : "c099b2ce716b8a0d",
+        "parentUid" : "129daa8a87ba41d645782ee98efdeec3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1594733671920,
+          "stop" : 1594733672329,
+          "duration" : 409
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_addroom_case[2.0-{\"hotel_id\":\"14715551\",\"room_name\":\"大床房\",\"room_pictures\":[{\"category\":\"房型相册\",\"poictures\":[{\"src\":\"http://yiyihoteltest.oss-cn-shanghai-finance-1-pub.aliyuncs.com/static/20200712/682a24106a841b8d1b516ecaea9670e5.jpg\"}]}]}]",
+        "uid" : "d002f87570f39151",
+        "parentUid" : "129daa8a87ba41d645782ee98efdeec3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1594733671209,
+          "stop" : 1594733671362,
+          "duration" : 153
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'{\"hotel_id\":\"14715551\",\"room_name\":\"大床房\",\"room_pictures\":[{\"category\":\"房型相册\",\"poictures\":[{\"src\":\"http://yiyihoteltest.oss-cn-shanghai-finance-1-pub.aliyuncs.com/static/20200712/682a24106a841b8d1b516ecaea9670e5.jpg\"}]}]}'", "2.0" ]
+      }, {
+        "name" : "test_addroom_case[1.0-{\"hotel_id\":\"14715551\",\"room_name\":\"大床房\",\"room_pictures\":[{\"category\":\"房型相册\",\"poictures\":[{\"src\":\"http://yiyihoteltest.oss-cn-shanghai-finance-1-pub.aliyuncs.com/static/20200712/682a24106a841b8d1b516ecaea9670e5.jpg\"}]}]}]",
+        "uid" : "55016a1a4c500585",
+        "parentUid" : "129daa8a87ba41d645782ee98efdeec3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1594733670901,
+          "stop" : 1594733671092,
+          "duration" : 191
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'{\"hotel_id\":\"14715551\",\"room_name\":\"大床房\",\"room_pictures\":[{\"category\":\"房型相册\",\"poictures\":[{\"src\":\"http://yiyihoteltest.oss-cn-shanghai-finance-1-pub.aliyuncs.com/static/20200712/682a24106a841b8d1b516ecaea9670e5.jpg\"}]}]}'", "1.0" ]
+      }, {
+        "name" : "test_addroom_case[3.0-{\"hotel_id\":\"14715523\",\"room_name\":\"大床房\",\"room_pictures\":[{\"category\":\"房型相册\",\"poictures\":[{\"src\":\"http://yiyihoteltest.oss-cn-shanghai-finance-1-pub.aliyuncs.com/static/20200712/682a24106a841b8d1b516ecaea9670e5.jpg\"}]}]}]",
+        "uid" : "623b742e78320a03",
+        "parentUid" : "129daa8a87ba41d645782ee98efdeec3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1594733671462,
+          "stop" : 1594733671563,
+          "duration" : 101
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'{\"hotel_id\":\"14715523\",\"room_name\":\"大床房\",\"room_pictures\":[{\"category\":\"房型相册\",\"poictures\":[{\"src\":\"http://yiyihoteltest.oss-cn-shanghai-finance-1-pub.aliyuncs.com/static/20200712/682a24106a841b8d1b516ecaea9670e5.jpg\"}]}]}'", "3.0" ]
+      } ],
+      "uid" : "129daa8a87ba41d645782ee98efdeec3"
+    }, {
+      "name" : "8328-MainThread",
+      "children" : [ {
+        "name" : "test_case[1.0-{\"account\": \"15266905059\",\"password\": \"123456\"}]",
+        "uid" : "1de4e1db26ad96df",
+        "parentUid" : "02cd283b4a6ac01bd8ede0e5c8a9892b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1595386627384,
+          "stop" : 1595386627486,
+          "duration" : 102
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'{\"account\": \"15266905059\",\"password\": \"123456\"}'", "1.0" ]
+      }, {
+        "name" : "test_case[2.0-{\"account\": \"15266905059\",\"password\": \"zjr123456\"}]",
+        "uid" : "c715b716e5090755",
+        "parentUid" : "02cd283b4a6ac01bd8ede0e5c8a9892b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1595386627500,
+          "stop" : 1595386627561,
+          "duration" : 61
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'{\"account\": \"15266905059\",\"password\": \"zjr123456\"}'", "2.0" ]
+      } ],
+      "uid" : "02cd283b4a6ac01bd8ede0e5c8a9892b"
+    }, {
+      "name" : "9528-MainThread",
+      "children" : [ {
+        "name" : "test_case[1.0-{\"account\": \"15266905059\",\"password\": \"123456\"}]",
+        "uid" : "5513d70522034199",
+        "parentUid" : "4e2d19776ebe4d2ebd3e7f57adc1f62b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1595383256406,
+          "stop" : 1595383256506,
+          "duration" : 100
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'{\"account\": \"15266905059\",\"password\": \"123456\"}'", "1.0" ]
+      }, {
+        "name" : "test_case[2.0-{\"account\": \"15266905059\",\"password\": \"zjr123456\"}]",
+        "uid" : "251f7ddc343b2484",
+        "parentUid" : "4e2d19776ebe4d2ebd3e7f57adc1f62b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1595383256512,
+          "stop" : 1595383256566,
+          "duration" : 54
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'{\"account\": \"15266905059\",\"password\": \"zjr123456\"}'", "2.0" ]
+      } ],
+      "uid" : "4e2d19776ebe4d2ebd3e7f57adc1f62b"
+    } ],
+    "uid" : "42302df7681fdc447d8ac52c431cb5ab"
+  } ]
+}

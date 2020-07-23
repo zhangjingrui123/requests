@@ -1,0 +1,66 @@
+{
+  "uid" : "251f7ddc343b2484",
+  "name" : "test_case[2.0-{\"account\": \"15266905059\",\"password\": \"zjr123456\"}]",
+  "fullName" : "Testcase.test_login#test_case",
+  "historyId" : "3cc57cbeaa40538b80811e96c31fda37",
+  "time" : {
+    "start" : 1595383256512,
+    "stop" : 1595383256566,
+    "duration" : 54
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "登录接口"
+  }, {
+    "name" : "feature",
+    "value" : "登录模块"
+  }, {
+    "name" : "tag",
+    "value" : "login"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "host",
+    "value" : "123LAPTOP-C540DCLJ"
+  }, {
+    "name" : "thread",
+    "value" : "9528-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Testcase.test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "request_param",
+    "value" : "'{\"account\": \"15266905059\",\"password\": \"zjr123456\"}'"
+  }, {
+    "name" : "test_number",
+    "value" : "2.0"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "login" ]
+  },
+  "source" : "251f7ddc343b2484.json",
+  "parameterValues" : [ "'{\"account\": \"15266905059\",\"password\": \"zjr123456\"}'", "2.0" ]
+}
